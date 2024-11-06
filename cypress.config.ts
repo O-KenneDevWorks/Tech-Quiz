@@ -5,11 +5,11 @@ export default defineConfig({
     baseUrl: 'http://localhost:3002',
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      
     },
   },
 
   component: {
+    specPattern: 'cypress/component/*.cy.{js,jsx,ts,tsx}',
     devServer: {
       framework: "react",
       bundler: "vite",
