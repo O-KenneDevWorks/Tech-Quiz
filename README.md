@@ -11,6 +11,8 @@ This quiz application provides users with a dynamic quiz experience where they c
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Environment Variables](#environment-variables)
+- [Testing with Cypress](#testing-with-cypress)
+- [Demo Video](#demo-video)
 - [License](#license)
 - [Contact](#contact)
 
@@ -105,6 +107,10 @@ To run both E2E and Component tests sequentially, use:
 ```bash
 npm run test:all
 ```
+
+## Demo Video
+
+You can watch a demo of the application and test suite [here](https://drive.google.com/file/d/1DKX95XDn9pEYlMdDBEmghcPMURLQYAxE/view).
 
 ## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
